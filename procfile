@@ -1,1 +1,1 @@
-worker: python mosis_bot.py
+worker: python3 mosis_bot.py
