@@ -1,0 +1,1 @@
+worker: python mosis_bot.py
