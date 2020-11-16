@@ -24,3 +24,7 @@ class MosisBot(commands.Cog):
             await ctx.send("Let us !pray in the hope that it will one day come")
         else:
             await ctx.send(":partying_face: THE ASSIGNMENT HAS ARRIVED!!! :partying_face: ")
+
+    @commands.command(name='riot', aliases=['r'])
+    async def riot(self,ctx):
+        await ctx.send("We have been scammed, time for a riot :fire: :house_abandoned: :fire:")
