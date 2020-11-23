@@ -37,5 +37,5 @@ class MosisBot(commands.Cog):
     @commands.command(name='sugar', aliases=['s'])
     async def sugar(self, ctx):
         with open('sugar.png', 'rb') as f:
-            picture = discord.File(f)
-            await ctx.send(ctx, picture)
+            sugarPic = discord.File(f)
+            await ctx.send(file=sugarPic)
