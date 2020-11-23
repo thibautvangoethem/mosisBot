@@ -32,7 +32,7 @@ class MosisBot(commands.Cog):
 
     @commands.command(name='yakindu', aliases=['y'])
     async def yakindu(self, ctx):
-        await ctx.send("Yakindu says: hmmmmmmm nono")
+        await ctx.send("hmmmmmmm nono")
 
     @commands.command(name='sugar', aliases=['s'])
     async def sugar(self, ctx):
