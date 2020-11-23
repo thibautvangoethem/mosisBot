@@ -39,3 +39,7 @@ class MosisBot(commands.Cog):
         with open('sugar.png', 'rb') as f:
             sugarPic = discord.File(f)
             await ctx.send(file=sugarPic)
+
+    @commands.command(name='help', aliases=['h'])
+    async def yakindu(self, ctx):
+        await ctx.send("We all need help, you wont find any here")
